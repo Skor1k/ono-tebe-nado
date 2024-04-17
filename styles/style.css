@@ -93,6 +93,15 @@ a:hover.header__link_active {
   justify-content: center;
 }
 
+a.header__logo {
+  border-bottom: none;
+  text-decoration: none;
+}
+
+a:hover.header__logo {
+  color: #000;
+}
+
 .header__logo-image {
   width: 148px;
   height: 105px;
