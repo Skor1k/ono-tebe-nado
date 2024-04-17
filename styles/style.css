@@ -232,11 +232,11 @@ a:hover.header__link_active {
   z-index: 1;
 }
 
-a:hover.card{
+a:hover.card {
   color: #fff;
 }
 
-.card-content{
+.card-content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
