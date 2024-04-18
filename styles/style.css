@@ -1,20 +1,5 @@
 /* Стили для тэгов */
 
-body {
-  background-color: #fff;
-  font-family: Raleway, Helvetica, Arial, sans-serif;
-}
-
-a {
-  font-style: normal;
-  text-decoration: none;
-  border-bottom: 1px solid;
-}
-
-a:hover {
-  color: blue;
-}
-
 h1 {
   font-size: 100px;
   line-height: 127%;
