@@ -13,7 +13,7 @@
 
   <body>
 
-    <!-- Блок навигации -->
+    <!-- Навигация -->
     
     <header class="header">
       
@@ -29,55 +29,45 @@
         <img src="./images/logo-black.svg" class="header__logo-image" alt="логотип оно тебе надо">
       </a>
       
-      <address class="header__address">
-        <div class="header__address-items">
-          <a href="tel:+99995555555">+9 999 555 5555</a><br>
+      <address class="adress header__address">
+          <a href="tel:+99995555555">+9 999 555 5555</a>
           <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
           <p>наб.&nbsp;Принсенграхт 263-265, Амстердам</p>
-        </div>
       </address>
 
     </header>
 
-    <!-- Блок страницы -->
+    <!-- Контент страницы -->
 
     <main class="main">
 
-      <!-- Обложка -->
+      <!-- Блок с обложкой -->
 
       <section class="cover">
-        
         <div class="overlay"></div>
         
-          <h1 class="cover__title">
-
-            <span class="aligned-text">
-              <span>Он</span>
-              <span class="letter-spacing-extended">о</span>
-            </span>
+        <h1 class="cover__title">
+          <span>
+            O<span class="letter-spacing-extended">но</span>
+          </span>
             
+          <span class="aligned-text aligned-text_center">
+            те<span class="letter-spacing-extended">бе</span>
+          </span>
 
-            <span class="aligned-text aligned-text_center">
-              <span>Теб</span>
-              <span class="letter-spacing-extended">е</span>
-            </span>
-
-            <span class="aligned-text aligned-text_right">
-              <span class="letter-spacing-extended">н</span>
-              <span class="no-letter-spacing">а</span>
-              <span class="no-letter-spacing">д</span>
-              <span class="no-letter-spacing">о</span>
-            </span>
-          </h1>
+          <span class="aligned-text aligned-text_right">
+            <span class="letter-spacing-extended">н</span>ад<span class="no-letter-spacing">о</span>
+          </span>
+        </h1>
         
         <div class="cover__description">
           <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
-          <a href="" class="bet-button">Сделать ставку</a>
+          <button>Сделать ставку</button>
         </div>
 
       </section>
 
-      <!-- Карточки -->
+      <!-- Блок с Лотами -->
 
       <section class="lots">
         
@@ -85,9 +75,9 @@
         
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
-            <a href="" class="card card_type_film">
-              <div class="overlay"></div>
-              <article class="card-content">
+            <a href="" class="card-link">
+              <article class="card card-content card-type-film">
+                <div class="overlay"></div>
                 <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
                 <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
               </article>
@@ -95,9 +85,9 @@
           </li>
           
           <li class="lots__card-list-item">
-            <a href="" class="card card_type_book">
-              <div class="overlay"></div>
-              <article class="card-content">
+            <a href="" class="card-link">
+              <article class="card card-content card-type-book">
+                <div class="overlay"></div>
                 <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
                 <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
               </article>
@@ -105,9 +95,9 @@
           </li>
           
           <li class="lots__card-list-item">
-            <a href="" class="card card_type_picture">
-              <div class="overlay"></div>
-              <article class="card-content">
+            <a href="" class="card-link">
+              <article class="card card-content card-type-picture">
+                <div class="overlay"></div>
                 <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
                 <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
               </article>
@@ -115,13 +105,11 @@
           </li>
         </ul>
         
-        <div class="lots__look-more-link">
-          <a href="">посмотреть больше</a>
-        </div>
+          <a href="" class="lots__look-more-link">посмотреть больше</a>
       
       </section>
 
-      <!-- О компании -->
+      <!-- Блок Об аукционе -->
 
       <section class="about">
 
@@ -144,12 +132,10 @@
 
     <footer class="footer">
 
-      <address class="footer__address">
-        <div class="footer__address-items">
-          <a href="tel:+99995555555">+9 999 555 5555</a><br>
+      <address class="adress footer__address">
+          <a href="tel:+99995555555">+9 999 555 5555</a>
           <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
           <p>наб.&nbsp;Принсенграхт 263-265, Амстердам</p>
-        </div>
       </address>
 
       <nav class="footer__menu">
@@ -160,17 +146,25 @@
           </ul>
       </nav>
 
-      <nav class="footer__social-list">
-        <a href="" class="footer__social-link">
-          <img src="./images/yt.svg" class="footer__social-icon" alt="YouTube">
-        </a>
-        <a href="" class="footer__social-link">
-          <img src="./images/vk.svg" class="footer__social-icon" alt="VK">
-        </a>
-        <a href="" class="footer__social-link">
-          <img src="./images/pinterest.svg" class="footer__social-icon" alt="Pinterest">
-        </a>
-      </nav>
+      <ul class="footer__social-list">
+        <li>
+          <a rel="nofollow" href="" class="footer__social-link">
+            <img src="./images/yt.svg" class="footer__social-icon" alt="YouTube">
+          </a>
+        </li>
+        
+        <li>
+          <a rel="nofollow" href="" class="footer__social-link">
+            <img src="./images/vk.svg" class="footer__social-icon" alt="VK">
+          </a>
+        </li>
+        
+        <li>
+          <a rel="nofollow" href="" class="footer__social-link">
+            <img src="./images/pinterest.svg" class="footer__social-icon" alt="Pinterest">
+          </a>
+        </li>
+      </ul>
 
     </footer>
     
